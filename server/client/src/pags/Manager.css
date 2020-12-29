@@ -1,0 +1,62 @@
+.Manager table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    display: block;
+    margin: auto;
+    width: max-content;
+  }
+
+  .Manager td,  th {
+    border: 1px solid #ddd;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .Manager tr:nth-child(even){background-color: burlywood;}
+
+  .Manager .young {background-color: rgb(230, 80, 80);}
+
+  .Manager .requestShiftsTable {margin-bottom: 1rem;}
+  .Manager #editingTable {margin-bottom: 1rem;}
+
+
+  .Manager .backgroundPop { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  } 
+
+  .Manager .Pop {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    background-color: burlywood!important;
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .Manager li{
+  list-style: none;
+ }
+ .Manager .list {margin-top: 1rem;
+  margin-bottom: 1rem;}
+
+  .Manager .FormCheck {
+  display: inline-block;}
+
+   .Manager .FormCheck input {
+    margin-top: 0.45rem;
+    margin-left: 0;
+    margin-right: -1rem;
+   }

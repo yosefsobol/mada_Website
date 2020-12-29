@@ -1,0 +1,17 @@
+.Login  {
+  margin-top: 2rem;
+}
+.Login .from {
+  max-width: 346px;
+  margin: auto;
+  margin-top: 3rem;
+  border: lightgray solid 6px;
+  padding: 1rem;
+}
+.Login .loginRegister {
+  border: lightgray solid 6px;
+  padding: 1rem;
+  max-width: 346px;
+  margin: auto;
+  margin-top: 1rem;
+}

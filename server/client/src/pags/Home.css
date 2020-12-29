@@ -1,0 +1,40 @@
+.Home .updatesFrame {
+  border: tomato 3px solid;
+  height: 100px;
+  overflow: auto;
+}
+
+.Home .updatesFrame ul {
+  width: 50%;
+  min-width: 350px;
+}
+.Home .updatesFrame ul li {
+  text-align: right;
+}
+.Home .flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.Home .flex-grid-thirds .col {
+  width: 32%;
+}
+
+@media (max-width: 500px) {
+  .Home .flex-grid,
+  .Home .flex-grid-thirds {
+    display: block;
+  }
+  .Home .flex-grid-thirds .col {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+.Home .flex-grid-thirds .col {
+  flex: 1;
+  background: pink;
+  border-radius: 19px;
+  padding: 20px;
+  margin: 1rem;
+  max-width: -webkit-fill-available;
+}

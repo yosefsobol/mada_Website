@@ -1,0 +1,19 @@
+.ShiftRequest .red { background-color: red;}
+.ShiftRequest .green { background-color: green;}
+.ShiftRequest {padding-top: 5px;}
+.ShiftRequest table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 3px solid #ddd;
+    display: block;
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+  }
+
+  .ShiftRequest td,  th {
+    border: 1px solid #ddd;
+    padding: 1px;
+  }
+  
+  .ShiftRequest tr:nth-child(even){background-color: burlywood;}
+  .ShiftRequest .Shift p{margin-bottom: 0;}

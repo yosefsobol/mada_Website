@@ -1,0 +1,25 @@
+.OldShifts  {
+    margin-top: 3rem;
+}
+.OldShifts table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 3px solid #ddd;
+    display: block;
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+  }
+
+  .OldShifts td,  th {
+    border: 1px solid #ddd;
+    padding: 4px;
+  }
+  .OldShifts tr:nth-child(even){background-color: burlywood;}
+
+  .OldShifts .buttons{
+    background-color: coral;
+    width: 3rem;
+    font-size: 1.2rem;
+    margin: 0 9rem 0.5rem 9rem;
+    font-weight: 900;
+  }

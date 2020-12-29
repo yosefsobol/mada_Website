@@ -1,0 +1,15 @@
+.Register  {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.Register form {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: right;
+  }
+
+  @media (max-width: 992px) {
+    .Register .form-row {
+      display: block }}
